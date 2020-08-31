@@ -10,7 +10,22 @@
    display: flex;
    justify-content: space-between;
    align-items: flex-start;
+
+   &.footer {
+      align-items: center;
+   }
 }
 .button-search {
    cursor: pointer;
+}
+.sec-item {
+   width: 140px;
+}
+.addButton {
+   margin-top: 5px;
+   align-items: center;
+   height: 45px;
+}
+.btn {
+   height: 45px;
 }
